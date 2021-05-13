@@ -1,0 +1,17 @@
+What is the correct way to iterate through an array in java? How do you ensure that you do not over-run the length of the array?
+
+we can use for or for each loop to iterate through the array in java.
+if arr is an array of int .
+then we will first calculate the length using the length.
+int length=arr.length;
+so to not over run the length of array.we will traverse from
+for(int i=0;i<length;i++)
+{
+System.out.print(arr[i]);
+}
+
+for each loop equivalent to this will be
+for(int num:arr)
+{
+System.out.print(num);
+}

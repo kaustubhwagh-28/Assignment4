@@ -1,0 +1,6 @@
+What are constant arrays? How do you define them? When are they used?
+when we dont want the value to change in array then we use const array.in java we can define const array by using final .
+final int [] arr={10,20,30,40};
+we cant modify the element inside like arr[1]=100;
+the compiler will generate error.
+when we can use when we only want content to readable only.when we dont want it to modify 
